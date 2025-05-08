@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="Movies.xsl"?>
+<cinema>
+  <movie>
+    <name>12th Fail</name>
+    <director>vidhu vinod chopra</director>
+    <year>2023</year>
+  </movie>
+  <movie>
+    <name>Good will Hunting</name>
+    <director>Gus Van Sant</director>
+    <year>1997</year>
+  </movie>
+</cinema>

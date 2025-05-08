@@ -1,0 +1,121 @@
+<html >
+<head>
+  <title>Assignment 9</title>
+  <style>
+    body {
+      background-color: #e0f7fa;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      padding:40px;
+    }
+
+    h1{
+      text-align: center;
+      color: #782509;
+      text-shadow: 1px 1px 3px #c5c2c2;
+      font-family: "Press Start 2P";
+    }
+
+    form {
+      max-width: 600px;
+      margin: 0 auto;
+      background-color: #3f9497;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    label {
+      display: block;
+      margin-top: 15px;
+      font-weight: bolder;
+      color: #000c4d;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="date"],
+    input[type="number"],
+    select,
+    textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+    }
+
+    input[type="radio"] {
+      margin-right: 8px;
+    }
+
+    textarea {
+      height: 80px;
+      resize: vertical;
+    }
+
+    button {
+      text-align: center;
+      margin-top: 20px;
+      margin-left: 45%;
+      background-color: #991313;
+      color: white;
+      padding: 12px 20px;
+      border:none;
+      border-radius: 6px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #1b95ba;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Employee Information Form</h1>
+
+  <form>
+    <label for="fullname">Full Name:</label>
+    <input type="text" id="fullname" name="fullname" required>
+
+    <label for="empid">Employee ID:</label>
+    <input type="text" id="empid" name="empid" required>
+
+    <label for="email">Email Address:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="position">Position:</label>
+    <input type="text" id="position" name="position" required>
+
+    <label for="department">Department:</label>
+    <select id="department" name="department" required>
+      <option value="">-- Select Department --</option>
+      <option value="HR">Human Resources</option>
+      <option value="Finance">Finance</option>
+      <option value="IT">Information Technology</option>
+      <option value="Marketing">Marketing</option>
+      <option value="Other">Other</option>
+    </select>
+
+    <label for="joining">Joining Date:</label>
+    <input type="date" id="joining" name="joining" required>
+
+    <label for="salary">Salary:</label>
+    <input type="number" id="salary" name="salary" min="0"required>
+
+    <label>Employment Status:</label>
+    <input type="radio" id="fulltime" name="status" value="Full-Time" required>
+    <label for="fulltime" style="display:inline;">Full-Time</label>
+    <input type="radio" id="parttime" name="status" value="Part-Time">
+    <label for="parttime" style="display:inline;">Part-Time</label>
+
+    <label for="comments">Additional Comments:</label>
+    <textarea id="comments" name="comments"></textarea>
+
+    <button type="submit">Submit</button>
+  </form>
+
+</body>
+</html>

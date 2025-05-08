@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="Assignment 12.xsl"?>
+<cinema>
+  <movie>
+    <name>Inception</name>
+    <director>Christopher Nolan</director>
+  </movie>
+  <movie>
+    <name>Avatar</name>
+    <director>James Cameron</director>
+  </movie>
+</cinema>
